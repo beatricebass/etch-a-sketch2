@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainGrid {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+/* comment */
+.row {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.square {
+    flex: 1;
+    border: 1px solid gray;
+}
+
+.coloured {
+    flex: 1;
+    border: 1px solid gray;  
+    background-color: darkcyan;
+}
